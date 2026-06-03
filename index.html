@@ -6,17 +6,24 @@
     <title>Weather App</title>
     <link rel="icon" type="image/x-icon" href="/icon.ico">
     <link rel="stylesheet" href="/styles.css">
-    <script src="/scripts.js"></script>
 </head>
 <body>
-    <div>
-        <section>
-            <input type="text" id="cityInput" placeholder="Enter city name">
-            <h1>City Name</h1>
-            <img id="weatherIcon" src="/icon.png">
-            <h2 id="temperature">Temperature: --°F</h2>
-            <h3 id="date">Date: --</h3>
+    <div id="app">
+        <section id="weatherCard">
+
+            <div id="searchBar">
+                <input type="text" id="cityInput" placeholder="Enter city name">
+                <button id="searchBtn">Search</button>
+            </div>
+
+            <h1 id="cityName">City Name</h1>
+            <img id="weatherIcon" src="/icon.png" alt="Weather Icon">
+
+            <h2 id="temperature">--°F</h2>
+            <p id="date">--</p>
+
         </section>
     </div>
+    <script src="/scripts.js"></script>
 </body>
 </html>
