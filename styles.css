@@ -46,5 +46,13 @@ section {
     width: 80px;
 }
 
-h1 { font-size: 1.4rem; margin: 0; }
-h2, h3 { font-size: 1rem; margin: 0; font-weight: normal; }
+h1 { 
+    font-size: 1.4rem; 
+    margin: 0; 
+}
+
+h2, h3 { 
+    font-size: 1rem; 
+    margin: 0; 
+    font-weight: normal; 
+}
